@@ -15,12 +15,14 @@ Badstua Napp står på Tyskerbrygga i Kirkehamn på Hidra og er bygd som en tro 
 - **Formål:** Å bevare og formidle kystkultur gjennom en praktisk installasjon som kan brukes året rundt.
 
 ## Byggeprosessen
-| Moment | Fakta |
-| ------ | ----- |
-| **Hovedbygger** | Harald Kuven (Hitterøy Kystlag) |
-| **Frivillig bistand** | Medlemmer i kystlaget |
-| **Materialer** | Lokalt tømmer, sagd og høvlet på Hidra |
-| **Finansiering** | Hidra Vel • Agder fylkeskommune • Flekkefjord Sparebank |
+
+| Moment               | Fakta                                                                 |
+|----------------------|------------------------------------------------------------------------|
+| **Hovedbygger**      | Harald Kuven (Hitterøy Kystlag)                                        |
+| **Frivillig bistand**| Medlemmer i kystlaget                                                  |
+| **Materialer**       | Lokalt tømmer, sagd og høvlet på Hidra                                 |
+| **Finansiering**     | Hidra Vel • Agder fylkeskommune • Flekkefjord Sparebank                |
+
 
 Badstua er satt opp i tradisjonelt bindingsverk, kledd med malmfuru og isolert for helårsdrift. Innvendig finnes vedfyrt ovn, panoramavindu mot sundet og enkel garderobe.
 
