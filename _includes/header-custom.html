@@ -35,14 +35,12 @@
 
     <!-- Horisontal meny på ≥ md ------------------------------------->
     <nav class="d-none d-md-flex">
-      {% for p in site.pages %}
-        {% if p.nav_order %}
-          <a href="{{ p.url | relative_url }}"
-             class="px-3 color-text-white text-bold no-underline">{{ p.title }}</a>
-        {% endif %}
-      {% endfor %}
-      <a href="https://booking.hitteroykystlag.no"
-         class="px-3 color-text-white text-bold no-underline">Booking</a>
+		{% for item in site.data.navigation %}
+		  <a href="{{ item.url | relative_url }}"
+			 class="px-3 color-text-white text-bold no-underline">
+			 {{ item.title }}
+		  </a>
+		{% endfor %}
     </nav>
 
   </div>
