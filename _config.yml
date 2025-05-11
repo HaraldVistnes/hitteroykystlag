@@ -6,8 +6,9 @@ description: >
 url: "https://hitteroykystlag.no"
 baseurl: ""
 
+theme: jekyll-theme-primer
 #theme: jekyll-theme-midnight
-remote_theme: "zerostaticthemes/jekyll-atlantic-theme"
+#remote_theme: "zerostaticthemes/jekyll-atlantic-theme"
 logo: "/assets/img/logo.png"
 favicon: "/assets/img/logo.png"
 markdown: kramdown

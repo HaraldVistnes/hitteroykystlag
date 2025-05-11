@@ -2,6 +2,9 @@
 layout: home
 title: Willkommen Sie
 hero_image: /assets/img/hero.png
+heading: Velkommen til Hitterøy Kystlag
+subheading: Bevaring av kystkulturen på Sørlandet
+banner: /assets/img/hero.png
 ---
 ### Velkommen til Hitterøy Kystlag
 
