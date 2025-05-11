@@ -2,6 +2,7 @@
 layout: default
 title: Om laget
 permalink: /about/
+nav_order: 2
 ---
 **Hitterøy Kystlag** ble stiftet i 1992 og holder til i skjærgården utenfor Farsund.
 
