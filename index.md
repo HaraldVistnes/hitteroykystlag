@@ -16,3 +16,6 @@ til restaurering av gamle innenbordsmotorer. Følg prosjektene våre, bli med p�
 eller støtt arbeidet som frivillig!
 
 [Les mer om oss](/about/)
+
+[Badstua Napp](/napp/)
+
