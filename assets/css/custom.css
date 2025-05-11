@@ -19,12 +19,12 @@
   padding:.75rem 1.5rem;         /* litt luft inni knappen           */
   font-size:1.25rem;
   border-radius:.5rem;
-  background:#7C4A53;            /* grønn bakgrunn                   */
-  border:1px solid #7C4A53;
+  background:#7A0319;            /* grønn bakgrunn                   */
+  border:1px solid #7A0319;
   color:#fff !important;         /* hvit tekst                       */
   text-decoration:none;
 }
 .btn-booking:hover {
-  background:#7A0319;
-  border-color:#7A0319;
+  background:#BA0529;
+  border-color:#BA0529;
 }
