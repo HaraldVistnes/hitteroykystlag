@@ -12,17 +12,12 @@
 
     <!-- Hamburger + overlay-meny ------------------------------------->
     <details class="details-reset d-md-none">
-      <!-- selve hamburger-ikonet -->
+      <!-- hamburger-ikon -->
       <summary style="list-style:none;cursor:pointer;font-size:2rem;color:#fff;">☰</summary>
 
       <!-- Fullskjerms overlay -->
       <nav class="mobile-overlay d-flex flex-column flex-items-center flex-justify-center"
            style="position:fixed;inset:0;background:#0f111688;overflow:auto;z-index:99">
-
-        <!-- lukkeknapp øverst høyre -->
-        <button class="btn-octicon position-absolute top-2 right-3"
-                aria-label="Lukk meny"
-                onclick="this.closest('details').removeAttribute('open')">✕</button>
 
         {% for p in site.pages %}
           {% if p.nav_order %}
@@ -30,6 +25,11 @@
           {% endif %}
         {% endfor %}
         <a href="https://booking.hitteroykystlag.no" class="my-3 h2 no-underline">Booking</a>
+
+        <!-- lukkeknapp nederst høyre -->
+        <button aria-label="Lukk meny"
+                style="position:absolute;bottom:1.5rem;right:1.5rem;font-size:2rem;background:none;border:none;color:#fff;cursor:pointer;"
+                onclick="this.closest('details').removeAttribute('open')">✕</button>
       </nav>
     </details>
 
