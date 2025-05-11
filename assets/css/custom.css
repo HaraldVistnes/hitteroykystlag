@@ -3,3 +3,11 @@
 
 /* tving alle lenker i headeren til hvit */
 .site-header a { color:#fff !important; }
+
+/* Hvite lenker i horisontal meny */
+.site-header nav > a { color:#fff; }
+.site-header nav > a:hover { color:#6cb6ff; }
+
+/* Hvite lenker i overlay */
+.link-primary           { color:#fff !important; }
+.link-primary:hover     { color:#6cb6ff !important; }
