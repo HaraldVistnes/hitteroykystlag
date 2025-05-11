@@ -27,3 +27,10 @@ eller støtt arbeidet som frivillig!
 
 	<a href="https://napp.hitteroykystlag.no" class="btn btn-booking my-4">Bestill time in badstua →</a>
 </div>
+
+
+<div style="text-align:center">
+  <a href="https://napp.hitteroykystlag.no" class="btn-booking my-4">
+    Bestill time i badstua 2 →
+  </a>
+</div>

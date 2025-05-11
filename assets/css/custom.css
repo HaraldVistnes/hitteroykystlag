@@ -15,9 +15,16 @@
 
 /* Booking button */
 .btn-booking {
-  background:#28a745;   /* grønn */
-  border-color:#28a745;
-  width:240px;
+  display:inline-block;          /* bredden fungerer nå              */
+  padding:.75rem 1.5rem;         /* litt luft inni knappen           */
   font-size:1.25rem;
+  border-radius:.5rem;
+  background:#28a745;            /* grønn bakgrunn                   */
+  border:1px solid #28a745;
+  color:#fff !important;         /* hvit tekst                       */
+  text-decoration:none;
 }
-.btn-booking:hover { background:#26913f;border-color:#26913f; }
+.btn-booking:hover {
+  background:#26913f;
+  border-color:#26913f;
+}
