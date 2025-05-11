@@ -1,20 +1,38 @@
-<header class="site-header" style="background:url('{{ "/assets/img/hero.png" | relative_url }}') center/cover no-repeat;">
-  <div class="wrapper" style="display:flex;align-items:center;justify-content:space-between;padding:1rem 0;">
-    <a href="{{ "/" | relative_url }}">
-      <img src="{{ "/assets/img/logo.png" | relative_url }}" alt="Hitterøy-logo" style="height:48px">
+<header class="site-header px-3 px-md-4 py-3" style="background:url('{{ "/assets/img/hero.png" | relative_url }}') center/cover no-repeat;">
+  <div class="d-flex flex-justify-between flex-items-center mx-auto" style="max-width:1024px">
+
+    <!-- Logo -->
+    <a href="{{ "/" | relative_url }}" class="d-flex flex-items-center color-text-white no-underline">
+      <img src="{{ "/assets/img/logo.png" | relative_url }}" alt="Hitterøy-logo" height="48" class="mr-2">
+      <strong class="f4 d-none d-md-inline">Hitterøy Kystlag</strong>
     </a>
 
-    <nav>
+    <!-- Hamburger + meny -->
+    <details class="details-overlay details-reset">
+      <summary class="btn btn-octicon d-md-none color-text-white" aria-label="Åpne meny">
+        <!-- 3 streker-ikon -->
+        <svg viewBox="0 0 16 16" width="24" height="24"><path fill="currentColor" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 010 1.5H1.75A.75.75 0 011 2.75zm0 4.5A.75.75 0 011.75 6.5h12.5a.75.75 0 010 1.5H1.75A.75.75 0 011 7.25zm.75 3.75a.75.75 0 000 1.5h12.5a.75.75 0 000-1.5H1.75z"/></svg>
+      </summary>
+
+      <nav class="dropdown-menu dropdown-menu-sw p-3 mt-2 color-bg-subtle rounded-1 shadow-large">
+        {% for p in site.pages %}
+          {% if p.nav_order %}
+            <a class="dropdown-item d-block py-1" href="{{ p.url | relative_url }}">{{ p.title }}</a>
+          {% endif %}
+        {% endfor %}
+        <a class="dropdown-item d-block py-1" href="https://booking.hitteroykystlag.no">Booking</a>
+      </nav>
+    </details>
+
+    <!-- Horisontal meny på medium+ skjermer -->
+    <nav class="d-none d-md-flex">
       {% for p in site.pages %}
         {% if p.nav_order %}
-          <a href="{{ p.url | relative_url }}" style="margin-left:1rem;font-weight:bold;">
-            {{ p.title }}
-          </a>
+          <a class="px-3 color-text-white text-bold no-underline" href="{{ p.url | relative_url }}">{{ p.title }}</a>
         {% endif %}
       {% endfor %}
-      <a href="https://booking.hitteroykystlag.no" style="margin-left:1rem;font-weight:bold;">
-        Booking
-      </a>
+      <a class="px-3 color-text-white text-bold no-underline" href="https://booking.hitteroykystlag.no">Booking</a>
     </nav>
+
   </div>
 </header>
