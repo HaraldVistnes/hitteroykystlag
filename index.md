@@ -19,3 +19,9 @@ eller støtt arbeidet som frivillig!
 
 [Badstua Napp](/napp/)
 
+<div style="text-align:center">
+  <a href="https://napp.hitteroykystlag.no"
+     class="btn btn-primary btn-lg my-4">
+    Bestill time i badstua →
+  </a>
+</div>
