@@ -1,6 +1,6 @@
 ---
 layout: home
-hero_image: /assets/img/hero.jpg
+hero_image: /assets/img/hero.png
 ---
 ### Velkommen til Hitterøy Kystlag
 
