@@ -6,7 +6,7 @@ permalink: /napp/
 
 # Badstua «Napp»
 
-Badstua Napp står på Tyskerbrygga i Kirkehamn på Hidra og er bygd som en tro kopi av det historiske Napp-fyret. Prosjektet springer ut av Hitterøy Kystlags mål om å gi både fastboende og besøkende en maritim badstu-opplevelse med sterk lokal forankring.
+Badstua Napp står på Tyskebrygga i Kirkehamn på Hidra og er bygd som en tro kopi av det historiske Napp-fyret. Prosjektet springer ut av Hitterøy Kystlags mål om å gi både fastboende og besøkende en maritim badstu-opplevelse med sterk lokal forankring.
 
 ---
 
@@ -30,13 +30,9 @@ Badstua er satt opp i tradisjonelt bindingsverk, kledd med malmfuru og isolert f
 ![Alternativ tekst](/assets/img/napp/39569e42-4809-4a0f-a55a-832f98e1bf62.jpg)
 
 ## Plassering og planer
-- **Nåværende plassering:** Tyskerbrygga, Kirkehamn  
-- **Planlagt permanent plassering:** Fiskerihavnen ved sandstranden (etter godkjenning)
+- **Nåværende plassering:** Tyskebrygga, Kirkehamn  
 
 ![Alternativ tekst](/assets/img/napp/7d250deb-e4a5-48be-bc11-b6aeb51d782e.jpg)
-
-## Utleie
-Timebasert utleie håndteres via nettbooking. Testkjøring startet i påsken 2025, og ordinær utleie åpner før 17. mai-helgen.
 
 ---
 
