@@ -13,6 +13,12 @@
 .link-primary:hover     { color:#6cb6ff !important; }
 
 
+/* Rødbrune h2-overskrifter */
+.markdown-body h2 {
+  color: #7A0319 !important;
+}
+
+
 /* Booking button */
 .btn-booking {
   display:inline-block;          /* bredden fungerer nå              */
