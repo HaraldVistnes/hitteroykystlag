@@ -2,7 +2,10 @@ title: "Hitterøy Kystlag"
 email: "post@hitteroykystlag.no"
 description: >
   Hitterøy Kystlag bevarer og formidler kystkultur gjennom båtbygging, fiske og restaurering av gamle dieselmotorer.
+
+url: "https://hitteroykystlag.no"
 baseurl: "/hitteroykystlag.github.io"
+
 #theme: jekyll-theme-midnight
 #remote_theme: "zerostaticthemes/jekyll-atlantic-theme"
 remote_theme: pages-themes/architect@v0.2.0
@@ -13,4 +16,5 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-remote-theme # add this line to the plugins list if you already have onelogo: "/assets/img/logo.png"
+  - jekyll-remote-theme 
+  
