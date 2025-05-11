@@ -2,7 +2,6 @@
 layout: home
 title: Velkommen
 permalink: /
-nav_order: 1
 ---
 
 <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">

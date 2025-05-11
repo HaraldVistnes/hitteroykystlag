@@ -19,12 +19,12 @@
       <nav class="mobile-overlay d-flex flex-column flex-items-center flex-justify-center"
            style="position:fixed;inset:0;background:#0f111688;overflow:auto;z-index:99">
 
-        {% for p in site.pages %}
-          {% if p.nav_order %}
-            <a href="{{ p.url | relative_url }}" class="my-3 h2 no-underline">{{ p.title }}</a>
-          {% endif %}
-        {% endfor %}
-        <a href="https://booking.hitteroykystlag.no" class="my-3 h2 no-underline">Booking</a>
+		{% for item in site.data.navigation %}
+		  <a href="{{ item.url | relative_url }}"
+			 class="px-3 color-text-white text-bold no-underline">
+			 {{ item.title }}
+		  </a>
+		{% endfor %}
 
         <!-- lukkeknapp nederst høyre -->
         <button aria-label="Lukk meny"
