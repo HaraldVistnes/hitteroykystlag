@@ -5,8 +5,8 @@ description: >
 baseurl: ""
 url: "https://hitteroykystlag.github.io"
 remote_theme: "zerostaticthemes/jekyll-atlantic-theme"
-logo: "/assets/img/logo.svg"
-favicon: "/assets/img/logo.svg"
+logo: "/assets/img/logo.png"
+favicon: "/assets/img/logo.png"
 markdown: kramdown
 
 plugins:
