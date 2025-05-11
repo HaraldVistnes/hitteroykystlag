@@ -16,7 +16,6 @@ Badstua Napp står på Tyskebrygga i Kirkehamn på Hidra og er bygd som en tro k
 
 ## Byggeprosessen
 
-| Moment               | Fakta                                                                 |
 |----------------------|------------------------------------------------------------------------|
 | **Hovedbygger**      | Harald Kuven (Hitterøy Kystlag)                                        |
 | **Frivillig bistand**| Medlemmer i kystlaget                                                  |
