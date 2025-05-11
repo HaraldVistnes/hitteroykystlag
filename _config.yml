@@ -2,8 +2,7 @@ title: "Hitterøy Kystlag"
 email: "post@hitteroykystlag.no"
 description: >
   Hitterøy Kystlag bevarer og formidler kystkultur gjennom båtbygging, fiske og restaurering av gamle dieselmotorer.
-baseurl: ""
-url: "https://haraldvistnes.github.io/hitteroykystlag.github.io/"
+baseurl: "/hitteroykystlag.github.io"
 #theme: jekyll-theme-midnight
 #remote_theme: "zerostaticthemes/jekyll-atlantic-theme"
 remote_theme: pages-themes/architect@v0.2.0
