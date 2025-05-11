@@ -6,9 +6,9 @@ permalink: /
 
 <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
 
-### Velkommen til Hitterøy Kystlag
-
+<div style="text-align:center">
 ![Alternativ tekst](/assets/img/logo.png)
+</div>
 
 Vi arbeider for å bevare kystkulturen på Sørlandet – fra tradisjonell båtbygging
 til restaurering av gamle innenbordsmotorer. Følg prosjektene våre, bli med på tur
