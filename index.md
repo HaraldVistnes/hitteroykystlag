@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Willkommen Sie
 hero_image: /assets/img/hero.png
 ---
 ### Velkommen til Hitterøy Kystlag
