@@ -4,7 +4,7 @@ description: >
   Hitterøy Kystlag bevarer og formidler kystkultur gjennom båtbygging, fiske og restaurering av gamle dieselmotorer.
 
 url: "https://hitteroykystlag.no"
-baseurl: "/hitteroykystlag.github.io"
+baseurl: "/hitteroykystlag"
 
 #theme: jekyll-theme-midnight
 #remote_theme: "zerostaticthemes/jekyll-atlantic-theme"
