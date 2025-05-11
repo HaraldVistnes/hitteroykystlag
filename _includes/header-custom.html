@@ -17,7 +17,7 @@
       <nav class="dropdown-menu dropdown-menu-sw p-3 mt-2 color-bg-subtle rounded-1 shadow-large">
         {% for p in site.pages %}
           {% if p.nav_order %}
-            <a class="dropdown-item d-block py-1" href="{{ p.url | relative_url }}">{{ p.title }}</a>
+            <a class="dropdown-item d-block py-1" href="{{ p.url | relative_url }}"><span class="color-text-white">{{ p.title }}</span></a>
           {% endif %}
         {% endfor %}
         <a class="dropdown-item d-block py-1" href="https://booking.hitteroykystlag.no">Booking</a>
