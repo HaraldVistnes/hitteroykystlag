@@ -11,3 +11,13 @@
 /* Hvite lenker i overlay */
 .link-primary           { color:#fff !important; }
 .link-primary:hover     { color:#6cb6ff !important; }
+
+
+/* Booking button */
+.btn-booking {
+  background:#28a745;   /* grønn */
+  border-color:#28a745;
+  width:240px;
+  font-size:1.25rem;
+}
+.btn-booking:hover { background:#26913f;border-color:#26913f; }
