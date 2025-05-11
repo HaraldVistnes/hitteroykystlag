@@ -13,6 +13,11 @@
 .link-primary:hover     { color:#6cb6ff !important; }
 
 
+/* Rødbrune h1-overskrifter */
+.markdown-body h1 {
+  color: #7A0319 !important;
+}
+
 /* Rødbrune h2-overskrifter */
 .markdown-body h2 {
   color: #7A0319 !important;
