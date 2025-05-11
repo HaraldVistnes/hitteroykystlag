@@ -1,2 +1,5 @@
 /* hides the grey GitHub-repo bar */
 .page-header { display:none; }
+
+/* tving alle lenker i headeren til hvit */
+.site-header a { color:#fff !important; }
