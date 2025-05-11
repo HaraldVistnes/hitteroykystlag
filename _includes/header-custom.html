@@ -1,0 +1,20 @@
+<header class="site-header" style="background:url('{{ "/assets/img/hero.png" | relative_url }}') center/cover no-repeat;">
+  <div class="wrapper" style="display:flex;align-items:center;justify-content:space-between;padding:1rem 0;">
+    <a href="{{ "/" | relative_url }}">
+      <img src="{{ "/assets/img/logo.png" | relative_url }}" alt="Hitterøy-logo" style="height:48px">
+    </a>
+
+    <nav>
+      {% for p in site.pages %}
+        {% if p.nav_order %}
+          <a href="{{ p.url | relative_url }}" style="margin-left:1rem;font-weight:bold;">
+            {{ p.title }}
+          </a>
+        {% endif %}
+      {% endfor %}
+      <a href="https://booking.hitteroykystlag.no" style="margin-left:1rem;font-weight:bold;">
+        Booking
+      </a>
+    </nav>
+  </div>
+</header>

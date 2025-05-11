@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Om laget
+title: Om oss
 permalink: /about/
 nav_order: 2
 ---

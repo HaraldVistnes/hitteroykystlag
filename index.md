@@ -1,12 +1,12 @@
 ---
 layout: home
-title: Willkommen Sie
-hero_image: /assets/img/hero.png
-heading: Velkommen til Hitterøy Kystlag
-subheading: Bevaring av kystkulturen på Sørlandet
-banner: /assets/img/hero.png
+title: Velkommen
+permalink: /
 nav_order: 1
 ---
+
+<link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+
 ### Velkommen til Hitterøy Kystlag
 
 ![Alternativ tekst](/assets/img/logo.png)
