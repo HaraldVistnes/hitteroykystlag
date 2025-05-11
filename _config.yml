@@ -1,0 +1,15 @@
+title: "Hitterøy Kystlag"
+email: "post@hitteroykystlag.no"
+description: >
+  Hitterøy Kystlag bevarer og formidler kystkultur gjennom båtbygging, fiske og restaurering av gamle dieselmotorer.
+baseurl: ""
+url: "https://hitteroykystlag.github.io"
+remote_theme: "zerostaticthemes/jekyll-atlantic-theme"
+logo: "/assets/img/logo.svg"
+favicon: "/assets/img/logo.svg"
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
