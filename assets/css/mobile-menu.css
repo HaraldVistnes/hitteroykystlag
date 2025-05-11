@@ -1,0 +1,14 @@
+/* Fjern standard pil/trekant som nettleseren legger på <summary> */
+details summary::-webkit-details-marker { display:none; }
+details summary::marker                { content:''; }
+
+/* Tving lenkene i overlay-menyen på mobil til å ligge under hverandre */
+.mobile-overlay a {
+  display:block;            /* full bredde */
+  margin:1rem 0;            /* luft mellom lenkene */
+  font-size:1.75rem;        /* litt større tekst */
+  color:#fff !important;    /* hvit tekst */
+}
+.mobile-overlay a:hover {
+  color:#6cb6ff !important; /* Primer-blå på hover */
+}

@@ -3,49 +3,46 @@
 
   <div class="d-flex flex-justify-between flex-items-center mx-auto" style="max-width:1024px">
 
-    <!-- Logo --------------------------------------------------------->
+    <!-- Logo ---------------------------------------------------------->
     <a href="{{ "/" | relative_url }}"
        class="d-flex flex-items-center color-text-white no-underline">
       <img src="{{ "/assets/img/logo.png" | relative_url }}" alt="Hitterøy-logo" height="48" class="mr-2">
       <strong class="f4 d-none d-md-inline">Hitterøy Kystlag</strong>
     </a>
 
-    <!-- Hamburger + overlay-meny ------------------------------------>
-    <details class="details-reset details-overlay d-md-none">
-      <summary class="btn-octicon color-text-white" aria-label="Åpne meny"></summary>
+    <!-- Hamburger + overlay-meny ------------------------------------->
+    <details class="details-reset d-md-none">
+      <!-- selve hamburger-ikonet -->
+      <summary style="list-style:none;cursor:pointer;font-size:2rem;color:#fff;">☰</summary>
 
       <!-- Fullskjerms overlay -->
-      <div class="position-fixed top-0 left-0 width-full height-full color-bg-default color-shadow-large"
-           style="z-index:90; overflow:auto;">
+      <nav class="mobile-overlay d-flex flex-column flex-items-center flex-justify-center"
+           style="position:fixed;inset:0;background:#0f111688;overflow:auto;z-index:99">
 
+        <!-- lukkeknapp øverst høyre -->
         <button class="btn-octicon position-absolute top-2 right-3"
-                aria-label="Lukk meny" onclick="this.closest('details').removeAttribute('open')">
-          ✕
-        </button>
+                aria-label="Lukk meny"
+                onclick="this.closest('details').removeAttribute('open')">✕</button>
 
-        <nav class="d-flex flex-column text-center mt-8">
-          {% for p in site.pages %}
-            {% if p.nav_order %}
-              <a class="my-3 h2 link-primary no-underline"
-                 href="{{ p.url | relative_url }}">{{ p.title }}</a>
-            {% endif %}
-          {% endfor %}
-          <a class="my-3 h2 link-primary no-underline"
-             href="https://booking.hitteroykystlag.no">Booking</a>
-        </nav>
-      </div>
+        {% for p in site.pages %}
+          {% if p.nav_order %}
+            <a href="{{ p.url | relative_url }}" class="my-3 h2 no-underline">{{ p.title }}</a>
+          {% endif %}
+        {% endfor %}
+        <a href="https://booking.hitteroykystlag.no" class="my-3 h2 no-underline">Booking</a>
+      </nav>
     </details>
 
     <!-- Horisontal meny på ≥ md ------------------------------------->
     <nav class="d-none d-md-flex">
       {% for p in site.pages %}
         {% if p.nav_order %}
-          <a class="px-3 color-text-white text-bold no-underline"
-             href="{{ p.url | relative_url }}">{{ p.title }}</a>
+          <a href="{{ p.url | relative_url }}"
+             class="px-3 color-text-white text-bold no-underline">{{ p.title }}</a>
         {% endif %}
       {% endfor %}
-      <a class="px-3 color-text-white text-bold no-underline"
-         href="https://booking.hitteroykystlag.no">Booking</a>
+      <a href="https://booking.hitteroykystlag.no"
+         class="px-3 color-text-white text-bold no-underline">Booking</a>
     </nav>
 
   </div>
