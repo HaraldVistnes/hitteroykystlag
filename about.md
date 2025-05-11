@@ -6,6 +6,8 @@ nav_order: 2
 ---
 **Hitterøy Kystlag** ble stiftet i 1992 og holder til i skjærgården utenfor Farsund.
 
+![Alternativ tekst](/assets/img/hero.png)
+
 * Vi restaurerer og bygger tradisjonsbåter.
 * Vi arrangerer åpne turer, forteller om fiske og sjøbruk.
 * Vi gir nytt liv til historiske dieselmotorer.
