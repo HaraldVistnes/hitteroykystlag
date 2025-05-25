@@ -22,7 +22,7 @@ eller støtt arbeidet som frivillig!
 Den unike badstuen [Napp](/napp/) er nå tilgjengelig for booking. Vi hadde besøk av NRK på selveste 
 17. mai hvor badstuen ble vist frem direkte på riksdekkende TV. Se det flotte innslaget her.
 
-<div style="text-align: center;">
+<div class="video-container">
      <iframe 
           width="560" height="315" 
           src="https://www.youtube.com/embed/OrQxecg07-A?si=r3TiKv4ECgDzed1v" 

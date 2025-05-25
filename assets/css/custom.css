@@ -39,3 +39,23 @@
   background:#BA0529;
   border-color:#BA0529;
 }
+
+
+
+.video-container {
+  position: relative;
+  width: 100%;             /* fyller alltid bredden på foreldreelementet */
+  max-width: 100%;         /* forsikrer at den ikke vokser utover */
+  padding-bottom: 56.25%;  /* 9/16 = 0.5625 = 56.25% høyde i forhold til bredden */
+  height: 0;
+  overflow: hidden;
+  margin: 0 auto;          /* hvis du senere setter max-width, holder den seg sentrert */
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
