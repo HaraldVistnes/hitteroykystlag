@@ -4,6 +4,25 @@ title: Velkommen
 permalink: /
 ---
 
+<style>
+     .video-container {
+       position: relative;
+       width: 80%;            /* ønsket prosentbredde */
+       padding-bottom: 56.25%; /* 16:9-aspekt */
+       height: 0;
+       overflow: hidden;
+       margin: 0 auto;        /* sentrerer beholderen */
+     }
+     .video-container iframe {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       border: 0;
+     }
+</style>
+
 <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
 
 <img src="/assets/img/logo.png"
@@ -22,7 +41,9 @@ eller støtt arbeidet som frivillig!
 Den unike badstuen [Napp](/napp/) er nå tilgjengelig for booking. Vi hadde besøk av NRK på selveste 
 17. mai hvor badstuen ble vist frem direkte på riksdekkende TV. Se det flotte innslaget her.
 
-<iframe width="560" height="315"
+/* width="560" height="315" */
+
+<iframe 
      src="https://www.youtube.com/embed/OrQxecg07-A?si=r3TiKv4ECgDzed1v" 
      title="YouTube video player" 
      frameborder="0" 
